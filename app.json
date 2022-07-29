@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Lembretes",
+    "slug": "Lembrete2-slug",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/reminder2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/laxt.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/reminder.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.Edenforever.Lembrete",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
